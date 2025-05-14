@@ -4,6 +4,7 @@ export const products: Product[] = [
   {
     id: "1",
     name: "Premium Dry Cat Food",
+    slug: "premium-dry-cat-food-toy",
     description: "High-quality dry food for adult cats with balanced nutrition and great taste.",
     price: 24.99,
     image: "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?q=80&w=600&auto=format&fit=crop",
@@ -19,6 +20,7 @@ export const products: Product[] = [
   {
     id: "2",
     name: "Interactive Cat Toy",
+    slug: "interactive-cat-toy",
     description: "Engaging toy that stimulates your cat's hunting instincts and provides hours of entertainment.",
     price: 12.99,
     originalPrice: 16.99,
@@ -36,9 +38,10 @@ export const products: Product[] = [
   {
     id: "3",
     name: "Premium Dog Kibble",
+    slug: "premium-dog-kibble",
     description: "Complete and balanced nutrition for adult dogs of all breeds.",
     price: 34.99,
-    image: "https://images.unsplash.com/photo-1585846888147-3fe14c130048?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1743269489028-2c7e359423e3?q=80&w=600&auto=format&fit=crop",
     category: "food",
     pet: "dog",
     rating: 4.7,
@@ -50,6 +53,7 @@ export const products: Product[] = [
   {
     id: "4",
     name: "Durable Dog Chew Toy",
+    slug: "durable-dog-chew-toy",
     description: "Long-lasting chew toy designed for aggressive chewers.",
     price: 18.99,
     originalPrice: 22.99,
@@ -66,6 +70,7 @@ export const products: Product[] = [
   {
     id: "5",
     name: "Cat Immune Support Supplements",
+    slug: "cat-immune-support-supplements",
     description: "Daily supplements to boost your cat's immune system and overall health.",
     price: 29.99,
     image: "https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?q=80&w=600&auto=format&fit=crop",
@@ -81,6 +86,7 @@ export const products: Product[] = [
   {
     id: "6",
     name: "Dog Joint Health Supplements",
+    slug: "dog-joint-health-supplements",
     description: "Support your dog's joint health and mobility with these tasty chewable tablets.",
     price: 32.99,
     image: "https://images.unsplash.com/photo-1582798358481-d199fb7347bb?q=80&w=600&auto=format&fit=crop",
@@ -95,6 +101,7 @@ export const products: Product[] = [
   {
     id: "7",
     name: "Catnip Mice Toys (3-Pack)",
+    slug: "catnip-mice-toys-3-pack",
     description: "Set of three catnip-filled mice toys that cats love to chase and pounce on.",
     price: 9.99,
     image: "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?q=80&w=600&auto=format&fit=crop",
@@ -109,6 +116,7 @@ export const products: Product[] = [
   {
     id: "8",
     name: "Dog Tennis Ball Launcher",
+    slug: "dog-tennis-ball-launcher",
     description: "Interactive toy that launches tennis balls for your dog to fetch.",
     price: 24.99,
     originalPrice: 29.99,
@@ -125,6 +133,7 @@ export const products: Product[] = [
   {
     id: "9",
     name: "Wet Cat Food Variety Pack",
+    slug: "wet-cat-food-variety-pack",
     description: "Assorted flavors of premium wet food that cats love.",
     price: 18.99,
     image: "https://images.unsplash.com/photo-1600456899121-68eda5705257?q=80&w=600&auto=format&fit=crop",
@@ -139,6 +148,7 @@ export const products: Product[] = [
   {
     id: "10",
     name: "Dog Dental Chews",
+    slug: "dog-dental-chews",
     description: "Tasty treats that help clean your dog's teeth and freshen breath.",
     price: 14.99,
     image: "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?q=80&w=600&auto=format&fit=crop",
@@ -153,6 +163,7 @@ export const products: Product[] = [
   {
     id: "11",
     name: "Cat Scratching Post",
+    slug: "cat-scratching-post",
     description: "Durable sisal scratching post with a plush top perch for lounging.",
     price: 39.99,
     originalPrice: 49.99,
@@ -169,6 +180,7 @@ export const products: Product[] = [
   {
     id: "12",
     name: "Dog Anxiety Calming Vest",
+    slug: "dog-anxiety-calming-vest",
     description: "Gentle pressure vest that helps reduce anxiety during thunderstorms or travel.",
     price: 44.99,
     image: "https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?q=80&w=600&auto=format&fit=crop",
@@ -184,6 +196,7 @@ export const products: Product[] = [
   {
     id: "13",
     name: "Cat Hairball Control Treats",
+    slug: "cat-hairball-control-treats",
     description: "Tasty treats that help reduce hairballs and support digestive health.",
     price: 11.99,
     image: "https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?q=80&w=600&auto=format&fit=crop",
@@ -198,6 +211,7 @@ export const products: Product[] = [
   {
     id: "14",
     name: "Dog Training Treats Pouch",
+    slug: "dog-training-treats-pouch",
     description: "Convenient pouch for carrying training treats during walks and training sessions.",
     price: 16.99,
     image: "https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?q=80&w=600&auto=format&fit=crop",
@@ -212,6 +226,7 @@ export const products: Product[] = [
   {
     id: "15",
     name: "Cat Water Fountain",
+    slug: "cat-water-fountain",
     description: "Flowing water fountain that encourages cats to drink more water.",
     price: 29.99,
     originalPrice: 34.99,
@@ -228,6 +243,7 @@ export const products: Product[] = [
   {
     id: "16",
     name: "Dog Probiotic Supplements",
+    slug: "dog-probiotic-supplements",
     description: "Daily probiotics to support your dog's digestive and immune health.",
     price: 27.99,
     image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=600&auto=format&fit=crop",

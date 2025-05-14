@@ -1,8 +1,8 @@
 'use client';
 
 import type React from 'react';
-
 import Link from 'next/link';
+
 import Image from 'next/image';
 import { useState } from 'react';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
@@ -36,7 +36,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
   };
 
   return (
-    <Link href={`/product/${product.id}`}>
+    <Link href={`/product/${product.slug}`}>
       <Card
         className={cn('overflow-hidden transition-all duration-200 h-full', isHovered && 'shadow-md transform translate-y-[-4px]')}
         onMouseEnter={() => setIsHovered(true)}

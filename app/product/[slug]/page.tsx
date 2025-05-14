@@ -13,21 +13,21 @@ import WishlistButton from '@/components/wishlist-button';
 
 interface ProductPageProps {
   params: {
-    id: string;
+    slug: string;
   };
 }
 
 export default async function ProductPage({ params }: ProductPageProps) {
-  const { id } = await params;
+  const { slug } = await params;
 
-  const product = products.find((p) => p.id === id);
+  const product = products.find((p) => p.slug === slug);
 
   if (!product) {
     notFound();
   }
 
   const relatedProducts = products
-    .filter((p) => p.id !== product.id && (p.category === product.category || p.pet === product.pet))
+    .filter((p) => p.slug !== product.slug && (p.category === product.category || p.pet === product.pet))
     .slice(0, 4);
 
   return (
