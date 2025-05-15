@@ -2,6 +2,7 @@
   "name": "petpals-store",
   "version": "1.0.0",
   "private": true,
+  "author": "Codescandy Team",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
